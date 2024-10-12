@@ -1,0 +1,96 @@
+﻿@page "/todolist"
+@using System.ComponentModel.DataAnnotations
+
+<h3>Todo List</h3>
+
+<EditForm Model="@NewTask" OnValidSubmit="AddTask" FormName="TodoForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="taskName">Task Name:</label>
+        <InputText @bind-Value="NewTask.Name" class="form-control" id="taskName" />
+        <ValidationMessage For="@(() => NewTask.Name)" />
+    </div>
+
+    <div class="form-group">
+        <label for="taskPriority">Priority:</label>
+        <InputSelect @bind-Value="NewTask.Priority" class="form-control" id="taskPriority">
+            <option value="">Select Priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => NewTask.Priority)" />
+    </div>
+
+    <div class="form-group">
+        <label for="dueDate">Due Date:</label>
+        <InputDate @bind-Value="NewTask.DueDate" class="form-control" id="dueDate" />
+        <ValidationMessage For="@(() => NewTask.DueDate)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Task</button>
+</EditForm>
+
+<h4 class="mt-4">Tasks</h4>
+
+@if (Tasks.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Priority</th>
+                <th>Due Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Tasks)
+            {
+                <tr>
+                    <td>@task.Name</td>
+                    <td>@task.Priority</td>
+                    <td>@task.DueDate.ToString("yyyy-MM-dd")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No tasks added yet.</p>
+}
+
+@code {
+    // Task model with validation
+    public class TaskItem
+    {
+        [Required(ErrorMessage = "Task name is required.")]
+        public string Name { get; set; } = "";
+
+        [Required(ErrorMessage = "Priority is required.")]
+        public string Priority { get; set; } = "";
+
+        [Required(ErrorMessage = "Due date is required.")]
+        public DateTime DueDate { get; set; } = DateTime.Now;
+    }
+
+    public TaskItem NewTask = new TaskItem();
+
+    private List<TaskItem> Tasks = new List<TaskItem>();
+
+    private void AddTask()
+    {
+        // Add the new task to the list
+        Tasks.Add(new TaskItem
+            {
+                Name = NewTask.Name,
+                Priority = NewTask.Priority,
+                DueDate = NewTask.DueDate
+            });
+
+        // Reset the form
+        NewTask = new TaskItem();
+    }
+}

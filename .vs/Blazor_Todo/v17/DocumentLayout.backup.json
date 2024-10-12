@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Todo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{206794FE-8B4D-441A-AC52-6FC3BBB9255D}|Blazor_Todo\\Blazor_Todo.csproj|c:\\users\\tyson\\repos\\blazor apps\\blazor_todo\\blazor_todo\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{206794FE-8B4D-441A-AC52-6FC3BBB9255D}|Blazor_Todo\\Blazor_Todo.csproj|solutionrelative:blazor_todo\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206794FE-8B4D-441A-AC52-6FC3BBB9255D}|Blazor_Todo\\Blazor_Todo.csproj|c:\\users\\tyson\\repos\\blazor apps\\blazor_todo\\blazor_todo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{206794FE-8B4D-441A-AC52-6FC3BBB9255D}|Blazor_Todo\\Blazor_Todo.csproj|solutionrelative:blazor_todo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Todo\\Blazor_Todo\\Components\\Pages\\Todo.razor",
+              "RelativeDocumentMoniker": "Blazor_Todo\\Components\\Pages\\Todo.razor",
+              "ToolTip": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Todo\\Blazor_Todo\\Components\\Pages\\Todo.razor",
+              "RelativeToolTip": "Blazor_Todo\\Components\\Pages\\Todo.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T22:41:32.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Todo\\Blazor_Todo\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Blazor_Todo\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Todo\\Blazor_Todo\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Blazor_Todo\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T21:16:09.797Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
