@@ -1,43 +1,57 @@
-﻿@page "/todolist"
+﻿@page "/todo"
+@rendermode InteractiveServer
 @using System.ComponentModel.DataAnnotations
 
 <h3>Todo List</h3>
 
-<EditForm Model="@NewTask" OnValidSubmit="AddTask" FormName="TodoForm">
+<EditForm Model="@newTask" OnValidSubmit="AddTask" FormName="todoForm">
     <DataAnnotationsValidator />
-    <ValidationSummary />
 
+
+    <!-- Task Name -->
     <div class="form-group">
         <label for="taskName">Task Name:</label>
-        <InputText @bind-Value="NewTask.Name" class="form-control" id="taskName" />
-        <ValidationMessage For="@(() => NewTask.Name)" />
+        <InputText id="taskName" @bind-Value="newTask.Name" class="form-control" />
+        <ValidationMessage For="@(() => newTask.Name)" />
     </div>
 
+    <!-- Priority -->
     <div class="form-group">
-        <label for="taskPriority">Priority:</label>
-        <InputSelect @bind-Value="NewTask.Priority" class="form-control" id="taskPriority">
+        <label for="priority">Priority:</label>
+        <InputSelect id="priority" @bind-Value="newTask.Priority" class="form-control" TValue="Priority?">
             <option value="">Select Priority</option>
-            <option value="Low">Low</option>
-            <option value="Medium">Medium</option>
-            <option value="High">High</option>
+            @foreach (Priority p in Enum.GetValues(typeof(Priority)))
+            {
+                <option value="@p">@p</option>
+            }
         </InputSelect>
-        <ValidationMessage For="@(() => NewTask.Priority)" />
+        <ValidationMessage For="@(() => newTask.Priority)" />
     </div>
 
+    <!-- Due Date -->
     <div class="form-group">
         <label for="dueDate">Due Date:</label>
-        <InputDate @bind-Value="NewTask.DueDate" class="form-control" id="dueDate" />
-        <ValidationMessage For="@(() => NewTask.DueDate)" />
+        <InputDate id="dueDate" @bind-Value="newTask.DueDate" class="form-control" TValue="DateTime?" />
+        <ValidationMessage For="@(() => newTask.DueDate)" />
     </div>
 
     <button type="submit" class="btn btn-primary">Add Task</button>
 </EditForm>
 
-<h4 class="mt-4">Tasks</h4>
+<hr />
 
-@if (Tasks.Any())
+<h4>Debug Information</h4>
+<p>Task Name: @newTask.Name</p>
+<p>Priority: @newTask.Priority</p>
+<p>Due Date: @newTask.DueDate?.ToString("yyyy-MM-dd")</p>
+
+<hr />
+
+<h4>Tasks</h4>
+
+@if (tasks.Any())
 {
-    <table class="table table-striped">
+    <table class="table">
         <thead>
             <tr>
                 <th>Name</th>
@@ -46,12 +60,12 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var task in Tasks)
+            @foreach (var task in tasks)
             {
                 <tr>
                     <td>@task.Name</td>
                     <td>@task.Priority</td>
-                    <td>@task.DueDate.ToString("yyyy-MM-dd")</td>
+                    <td>@task.DueDate?.ToString("yyyy-MM-dd")</td>
                 </tr>
             }
         </tbody>
@@ -59,38 +73,58 @@
 }
 else
 {
-    <p>No tasks added yet.</p>
+    <p>No tasks yet. Add a task above to get started!</p>
 }
 
 @code {
-    // Task model with validation
-    public class TaskItem
-    {
-        [Required(ErrorMessage = "Task name is required.")]
-        public string Name { get; set; } = "";
+    private List<TodoTask> tasks = new List<TodoTask>();
 
-        [Required(ErrorMessage = "Priority is required.")]
-        public string Priority { get; set; } = "";
-
-        [Required(ErrorMessage = "Due date is required.")]
-        public DateTime DueDate { get; set; } = DateTime.Now;
-    }
-
-    public TaskItem NewTask = new TaskItem();
-
-    private List<TaskItem> Tasks = new List<TaskItem>();
+    // Changed newTask from a field to a property
+    private TodoTask newTask { get; set; } = new TodoTask();
 
     private void AddTask()
     {
-        // Add the new task to the list
-        Tasks.Add(new TaskItem
-            {
-                Name = NewTask.Name,
-                Priority = NewTask.Priority,
-                DueDate = NewTask.DueDate
-            });
+        Console.WriteLine($"AddTask called. Name: {newTask.Name}, Priority: {newTask.Priority}, Due Date: {newTask.DueDate}");
 
-        // Reset the form
-        NewTask = new TaskItem();
+        if (string.IsNullOrWhiteSpace(newTask.Name))
+        {
+            Console.WriteLine("Task name is empty or whitespace.");
+            return;
+        }
+
+        // Add the new task to the list
+        tasks.Add(new TodoTask
+        {
+            Name = newTask.Name,
+            Priority = newTask.Priority,
+            DueDate = newTask.DueDate
+        });
+
+        // Reset the properties of newTask
+        newTask.Name = string.Empty;
+        newTask.Priority = null;
+        newTask.DueDate = null;
+
+        // Notify the form that the model has changed
+        StateHasChanged();
+    }
+
+    public class TodoTask
+    {
+        [Required(ErrorMessage = "Task name is required.")]
+        public string Name { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Priority is required.")]
+        public Priority? Priority { get; set; }
+
+        [Required(ErrorMessage = "Due date is required.")]
+        public DateTime? DueDate { get; set; }
+    }
+
+    public enum Priority
+    {
+        Low,
+        Medium,
+        High
     }
 }
