@@ -28,3 +28,7 @@ C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\Blazor
 C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\Blazor_Todo.genruntimeconfig.cache
 C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\ref\Blazor_Todo.dll
 C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\Blazor_Todo.sourcelink.json
+C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\Blazor_Todo.csproj.AssemblyReference.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\bin\Debug\net8.0\RestSharp.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\Blazor_T.A2BBF623.Up2Date
+C:\Users\tyson\repos\blazor apps\Blazor_Todo\Blazor_Todo\obj\Debug\net8.0\scopedcss\Components\Pages\TikTokRecommendations.razor.rz.scp.css

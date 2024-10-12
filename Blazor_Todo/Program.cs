@@ -1,4 +1,7 @@
 using Blazor_Todo.Components;
+using Blazor_Todo.Data.Handlers;
+using Blazor_Todo.Data.Models;
+using Blazor_Todo.Data.Services;
 
 namespace Blazor_Todo
 {
@@ -11,6 +14,13 @@ namespace Blazor_Todo
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+
+            builder.Services.AddScoped<TikTokRecommendedDataService>();
+            builder.Services.AddScoped<TikTokAPIHandler>();
+
+            builder.Services.Configure<TikTokApiOptions>(builder.Configuration.GetSection("TikTokApi"));
+
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 

@@ -1,6 +1,5 @@
 ﻿@page "/todo"
 @rendermode InteractiveServer
-@using System.ComponentModel.DataAnnotations
 
 <h3>Todo List</h3>
 
@@ -108,19 +107,6 @@ else
         // Notify the form that the model has changed
         StateHasChanged();
     }
-
-    public class TodoTask
-    {
-        [Required(ErrorMessage = "Task name is required.")]
-        public string Name { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Priority is required.")]
-        public Priority? Priority { get; set; }
-
-        [Required(ErrorMessage = "Due date is required.")]
-        public DateTime? DueDate { get; set; }
-    }
-
     public enum Priority
     {
         Low,

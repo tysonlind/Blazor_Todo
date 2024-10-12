@@ -45,3 +45,7 @@ build_metadata.AdditionalFiles.CssScope = b-mzf0pumyaz
 [C:/Users/tyson/repos/blazor apps/Blazor_Todo/Blazor_Todo/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-m28t0cdrm4
+
+[C:/Users/tyson/repos/blazor apps/Blazor_Todo/Blazor_Todo/Components/Pages/TikTokRecommendations.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaWtUb2tSZWNvbW1lbmRhdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uszrx687o0
