@@ -59,8 +59,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-12T05:59:26.054Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Blazor_Todo\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:19:37.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T04:19:37.961Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Blazor_Todo\\Components\\Pages\\ClientComponent.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T04:18:24.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T04:18:24.589Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "Blazor_Todo.Client\\Shared\\ClientComponentDemo.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T04:15:02.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T04:15:02.02Z"
             },
             {
               "$type": "Document",
@@ -124,8 +120,7 @@
               "RelativeToolTip": "Blazor_Todo.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T04:12:37.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T04:12:37.684Z"
             },
             {
               "$type": "Document",
@@ -137,8 +132,7 @@
               "RelativeToolTip": "Blazor_Todo.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:10:39.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T04:10:39.48Z"
             },
             {
               "$type": "Document",
@@ -150,8 +144,7 @@
               "RelativeToolTip": "Blazor_Todo\\Components\\Pages\\TikTokRecommendations.razor.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-12T20:56:21.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T20:56:21.97Z"
             },
             {
               "$type": "Document",
@@ -163,8 +156,7 @@
               "RelativeToolTip": "Blazor_Todo\\Components\\Pages\\TikTokRecommendations.razor",
               "ViewState": "AgIAADMAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T19:26:14.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:26:14.405Z"
             }
           ]
         }
