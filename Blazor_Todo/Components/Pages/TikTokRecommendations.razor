@@ -1,4 +1,5 @@
 ﻿@page "/tiktok-recommendations"
+@rendermode InteractiveServer
 
 @inject Blazor_Todo.Data.Services.TikTokRecommendedDataService ApiService
 
@@ -18,8 +19,8 @@ else if (recommendations != null && recommendations.AwemeList?.Count > 0)
         @foreach (var recommendation in recommendations.AwemeList)
         {
             <div class="d-flex flex-column tiktok-card">
-                <h2>Description</h2>
-                <h4>
+                <h3>Description</h3>
+                <h6>
                     @if (!string.IsNullOrEmpty(recommendation.Description) && recommendation.Description.Length > 100)
                     {
                         @($"{recommendation.Description.Substring(0, 100)}...")
@@ -28,10 +29,10 @@ else if (recommendations != null && recommendations.AwemeList?.Count > 0)
                     {
                         @recommendation.Description
                     }
-                </h4>
-                <h3>Share<span class="bi bi-link-45deg"></span></h3>
-                <p>@recommendation.ShareUrl</p>
-                <h3>Stats</h3>
+                </h6>
+                <h4>View TikTok<span class="bi bi-link-45deg"></span></h4>
+                <p><a href="@recommendation.ShareUrl">Link</a></p>
+                <h5>Stats</h5>
                 <p>Comments: @recommendation.Statistics?.CommentCount</p>
                 <p>Shares: @recommendation.Statistics?.PlayCount</p>
             </div>
@@ -96,7 +97,7 @@ else
 
         try
         {
-            await ApiService.GetTikTokRecommendationsAsync();
+            recommendations = await ApiService.GetTikTokRecommendationsAsync();
         }
         finally
         {

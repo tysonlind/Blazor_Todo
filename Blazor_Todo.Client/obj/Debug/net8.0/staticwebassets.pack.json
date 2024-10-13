@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\obj\\Debug\\net8.0\\compressed\\nw34ahju98.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blazor_Todo.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blazor_Todo.Client.props",
+      "PackagePath": "build\\Blazor_Todo.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blazor_Todo.Client.props",
+      "PackagePath": "buildMultiTargeting\\Blazor_Todo.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blazor_Todo.Client.props",
+      "PackagePath": "buildTransitive\\Blazor_Todo.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

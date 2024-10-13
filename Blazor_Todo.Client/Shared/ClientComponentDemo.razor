@@ -1,0 +1,12 @@
+﻿<h3>ClientComponentDemo</h3>
+<button @onclick="ShowWasmRendering" class="btn btn-primary">Show Data</button>
+<p>@data</p>
+
+
+@code {
+    string data = string.Empty;
+    void ShowWasmRendering()
+    {
+        data = "Here is your data from the client component!";
+    }
+}

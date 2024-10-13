@@ -2,6 +2,7 @@ using Blazor_Todo.Components;
 using Blazor_Todo.Data.Handlers;
 using Blazor_Todo.Data.Models;
 using Blazor_Todo.Data.Services;
+using Blazor_Todo.Client.Shared;
 
 namespace Blazor_Todo
 {
@@ -13,7 +14,9 @@ namespace Blazor_Todo
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
-                .AddInteractiveServerComponents();
+                .AddInteractiveServerComponents()
+                .AddInteractiveWebAssemblyComponents();
+                
 
             builder.Services.AddScoped<TikTokRecommendedDataService>();
             builder.Services.AddScoped<TikTokAPIHandler>();
@@ -38,7 +41,9 @@ namespace Blazor_Todo
             app.UseAntiforgery();
 
             app.MapRazorComponents<App>()
-                .AddInteractiveServerRenderMode();
+                .AddInteractiveServerRenderMode()
+                .AddInteractiveWebAssemblyRenderMode()
+                .AddAdditionalAssemblies(typeof(ClientComponentDemo).Assembly);
 
             app.Run();
         }

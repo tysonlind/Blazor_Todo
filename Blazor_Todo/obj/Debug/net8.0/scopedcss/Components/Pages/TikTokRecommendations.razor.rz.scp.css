@@ -1,10 +1,11 @@
 .tiktok-card[b-uszrx687o0] {
-    width: 348px;
+    width: 316px;
     text-wrap: pretty;
     word-wrap: break-word;
     max-height: 700px;
-    padding: 10px;
+    padding: 20px 40px;
     box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+    background-color: rgba(116,150,222,0.2);
 }
 
 .card-container[b-uszrx687o0] {
