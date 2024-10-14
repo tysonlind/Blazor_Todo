@@ -1,0 +1,16 @@
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\bin\Debug\net8.0\Blazor_Todo.Application.deps.json
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\bin\Debug\net8.0\Blazor_Todo.Application.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\bin\Debug\net8.0\Blazor_Todo.Application.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\bin\Debug\net8.0\Blazor_Todo.Domain.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\bin\Debug\net8.0\Blazor_Todo.Domain.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.csproj.AssemblyReference.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.AssemblyInfoInputs.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.AssemblyInfo.cs
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.csproj.CoreCompileInputs.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.sourcelink.json
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_T.FB0A566E.Up2Date
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\refint\Blazor_Todo.Application.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\Blazor_Todo.Application.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Application\obj\Debug\net8.0\ref\Blazor_Todo.Application.dll

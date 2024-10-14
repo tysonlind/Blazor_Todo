@@ -1,0 +1,12 @@
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\bin\Debug\net8.0\Blazor_Todo.Domain.deps.json
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\bin\Debug\net8.0\Blazor_Todo.Domain.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\bin\Debug\net8.0\Blazor_Todo.Domain.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.AssemblyInfoInputs.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.AssemblyInfo.cs
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.sourcelink.json
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\refint\Blazor_Todo.Domain.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\Blazor_Todo.Domain.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo.Domain\obj\Debug\net8.0\ref\Blazor_Todo.Domain.dll

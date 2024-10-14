@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blazor_Todo.Client\Blazor_Todo.Client.csproj" />
+    <ProjectReference Include="..\Blazor_Todo.Infrastructure\Blazor_Todo.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,40 @@
+﻿@page "/state-service-example"
+@rendermode InteractiveServer
+@inject MyStateService StateService
+
+<h3>Service-based State Management Example</h3>
+<p>In this form of state, data will persist between page navigations but will not persist after a browser refresh or navigating to a different site or application.</p>
+
+<p>User Name: @StateService.UserName</p>
+<p>Login Status: @(StateService.IsLoggedIn ? "Logged In" : "Logged Out")</p>
+
+<input @bind="newUserName" placeholder="Enter user name" />
+<button @onclick="SetUserName" class="btn btn-primary">Set User Name</button>
+
+<button @onclick="ToggleLoginStatus" class="btn btn-secondary">Toggle Login Status</button>
+
+@code {
+    private string? newUserName;
+
+    protected override void OnInitialized()
+    {
+        // Subscribe to state change event (optional)
+        StateService.OnChange += StateHasChanged;
+    }
+
+    private void SetUserName()
+    {
+        StateService.SetUserName(newUserName);
+    }
+
+    private void ToggleLoginStatus()
+    {
+        StateService.SetLoginStatus(!StateService.IsLoggedIn);
+    }
+
+    // Unsubscribe from state changes (optional)
+    public void Dispose()
+    {
+        StateService.OnChange -= StateHasChanged;
+    }
+}

@@ -97,3 +97,9 @@ C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Micros
 C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Client.dll
 C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Client.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Application.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Domain.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Infrastructure.dll
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Infrastructure.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Application.pdb
+C:\Users\tyson\repos\blazor apps\Blazor_Demo\Blazor_Todo\bin\Debug\net8.0\Blazor_Todo.Domain.pdb

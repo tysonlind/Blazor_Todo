@@ -3,6 +3,8 @@ using Blazor_Todo.Data.Handlers;
 using Blazor_Todo.Data.Models;
 using Blazor_Todo.Data.Services;
 using Blazor_Todo.Client.Shared;
+using Blazor_Todo.Application;
+using Blazor_Todo.Infrastructure;
 
 namespace Blazor_Todo
 {
@@ -16,10 +18,12 @@ namespace Blazor_Todo
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents()
                 .AddInteractiveWebAssemblyComponents();
-                
 
+            builder.Services.AddApplication();
+            builder.Services.AddInfrastructure();
             builder.Services.AddScoped<TikTokRecommendedDataService>();
             builder.Services.AddScoped<TikTokAPIHandler>();
+            builder.Services.AddScoped<MyStateService>();
 
             builder.Services.Configure<TikTokApiOptions>(builder.Configuration.GetSection("TikTokApi"));
 

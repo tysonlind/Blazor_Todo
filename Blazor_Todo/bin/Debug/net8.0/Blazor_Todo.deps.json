@@ -9,6 +9,7 @@
       "Blazor_Todo/1.0.0": {
         "dependencies": {
           "Blazor_Todo.Client": "1.0.0",
+          "Blazor_Todo.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.10",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "RestSharp": "112.1.0"
@@ -258,12 +259,44 @@
         }
       },
       "System.IO.Pipelines/8.0.0": {},
+      "Blazor_Todo.Application/1.0.0": {
+        "dependencies": {
+          "Blazor_Todo.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "Blazor_Todo.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Blazor_Todo.Client/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.10"
         },
         "runtime": {
           "Blazor_Todo.Client.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Blazor_Todo.Domain/1.0.0": {
+        "runtime": {
+          "Blazor_Todo.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Blazor_Todo.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Blazor_Todo.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "Blazor_Todo.Infrastructure.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -466,7 +499,22 @@
       "path": "system.io.pipelines/8.0.0",
       "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
     },
+    "Blazor_Todo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Blazor_Todo.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blazor_Todo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blazor_Todo.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

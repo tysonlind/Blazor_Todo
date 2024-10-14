@@ -486,6 +486,20 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Blazor_Todo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Blazor_Todo.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Blazor_Todo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blazor_Todo.Application.dll": {}
+        }
+      },
       "Blazor_Todo.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -497,6 +511,30 @@
         },
         "runtime": {
           "bin/placeholder/Blazor_Todo.Client.dll": {}
+        }
+      },
+      "Blazor_Todo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Blazor_Todo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blazor_Todo.Domain.dll": {}
+        }
+      },
+      "Blazor_Todo.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Blazor_Todo.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Blazor_Todo.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blazor_Todo.Infrastructure.dll": {}
         }
       }
     }
@@ -1257,15 +1295,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Blazor_Todo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Blazor_Todo.Application/Blazor_Todo.Application.csproj",
+      "msbuildProject": "../Blazor_Todo.Application/Blazor_Todo.Application.csproj"
+    },
     "Blazor_Todo.Client/1.0.0": {
       "type": "project",
       "path": "../Blazor_Todo.Client/Blazor_Todo.Client.csproj",
       "msbuildProject": "../Blazor_Todo.Client/Blazor_Todo.Client.csproj"
+    },
+    "Blazor_Todo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Blazor_Todo.Domain/Blazor_Todo.Domain.csproj",
+      "msbuildProject": "../Blazor_Todo.Domain/Blazor_Todo.Domain.csproj"
+    },
+    "Blazor_Todo.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Blazor_Todo.Infrastructure/Blazor_Todo.Infrastructure.csproj",
+      "msbuildProject": "../Blazor_Todo.Infrastructure/Blazor_Todo.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Blazor_Todo.Client >= 1.0.0",
+      "Blazor_Todo.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.10",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 8.0.0",
       "RestSharp >= 112.1.0"
@@ -1301,6 +1355,9 @@
           "projectReferences": {
             "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj": {
               "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj"
+            },
+            "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj"
             }
           }
         }
