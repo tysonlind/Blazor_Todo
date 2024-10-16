@@ -1,0 +1,500 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Tests\\Blazor_Todo.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj",
+        "projectName": "Blazor_Todo.Application",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj",
+        "projectName": "Blazor_Todo.Client",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj",
+        "projectName": "Blazor_Todo.Domain",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj",
+        "projectName": "Blazor_Todo.Infrastructure",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Tests\\Blazor_Todo.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Tests\\Blazor_Todo.Tests.csproj",
+        "projectName": "Blazor_Todo.Tests",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Tests\\Blazor_Todo.Tests.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Application\\Blazor_Todo.Application.csproj"
+              },
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj"
+              },
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Domain\\Blazor_Todo.Domain.csproj"
+              },
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj"
+              },
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\Blazor_Todo.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\Blazor_Todo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\Blazor_Todo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\Blazor_Todo.csproj",
+        "projectName": "Blazor_Todo",
+        "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\Blazor_Todo.csproj",
+        "packagesPath": "C:\\Users\\tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Client\\Blazor_Todo.Client.csproj"
+              },
+              "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\tyson\\repos\\blazor apps\\Blazor_Demo\\Blazor_Todo.Infrastructure\\Blazor_Todo.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

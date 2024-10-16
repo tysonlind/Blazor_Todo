@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blazor_Todo.Application\Blazor_Todo.Application.csproj" />
+    <ProjectReference Include="..\Blazor_Todo.Client\Blazor_Todo.Client.csproj" />
+    <ProjectReference Include="..\Blazor_Todo.Domain\Blazor_Todo.Domain.csproj" />
+    <ProjectReference Include="..\Blazor_Todo.Infrastructure\Blazor_Todo.Infrastructure.csproj" />
+    <ProjectReference Include="..\Blazor_Todo\Blazor_Todo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PersistenceTests\" />
+  </ItemGroup>
+
+</Project>

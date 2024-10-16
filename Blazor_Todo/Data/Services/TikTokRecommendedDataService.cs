@@ -15,8 +15,6 @@ namespace Blazor_Todo.Data.Services
 
         public async Task<TikTokRecommendedData?> GetTikTokRecommendationsAsync()
         {
-            string url = "https://yes.com/?hello=yes";
-
             // Use the generic method to fetch TikTokRecommendedData
             return await _apiHandler.GetRecommendedListAsync<TikTokRecommendedData>();
         }

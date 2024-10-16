@@ -13,7 +13,7 @@
 
         public TikTokAPIHandler(IOptions<TikTokApiOptions> apiSettings)
         {
-            _client = new RestClient("https://tokapi-mobile-version.p.rapidapi.com/v1/feed/recommended?region=US");
+            _client = new RestClient(apiSettings.Value.BaseUrl);
             _apiSettings = apiSettings.Value;
         }
 
